@@ -1,3 +1,15 @@
+# 来自fork的更新日志
+### 2026-03-21
+- **UI重构**：将界面升级。
+  - 主页替换为现代分屏结构（左侧提供智能**多行回车/逗号输入框**实现一键批量建排队）。
+  - 右侧改用美观的滚动瀑布卡片流，支持实时显示进度条与生命周期状态。
+- **爬取逻辑优化**：
+  - 修复了爬取逻辑中的错误，现在可以正确地爬取笔记数据。
+  - 添加了错误处理机制，可以在爬取过程中出现错误时自动恢复。
+  - 添加了多任务机制，可以单次爬取多个任务。
+
+
+
 # 小红书爬虫工具
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green)
@@ -125,6 +137,7 @@ redbooks/
 4. 仅供学习研究使用
 
 ## 更新日志
+
 
 ### 2026-02-02
 - 修复数据缓存问题（使用URL中的noteId）
